@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inscale=1.0">
+    <title>ST Wedding</title>
+
+    <link rel="icon" type="image/x-icon" href="img/logo-icon/love.png">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- animation css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-red-50 overflow-x-hidden" style="font-family: 'Noto Sans', sans-serif;">
+
+<div id="cover" style="background:url(img/bg/wedding.jpg) center center no-repeat; background-size: cover;"
+     class="kosong z-30 fixed top-0 bottom-0 left-0 right-0 w-full h-screen py-28 px-2">
+    <div class="hero mt-[-30px]">
+        <img src="img/element/flower.png" alt="" class="m-auto w-[100px] sm:w-[150px]">
+        <h4 class="text-white text-center font-semibold text-[16px] sm:text-[25px]" id="guest" style="font-size: 24px; color: #FFD700;">Hello World!</h4>
+        <h1 class="text-white align-center text-center font-regular text-[60px] sm:text-[80px] md:text-[100px]"
+            style="font-family: 'Passions Conflict', cursive; color: #FFD700;">Lao Haksrun & Somart Satya Votey</span></h1>
+        <hr class="m-auto border-[2px] border-[#FFD700] w-[16%]">
+        <p class="text-center text-white font-semibold pt-10" style="color: #FFD700; font-size: 18px;">Saturday, December 27, 2025</p>
+        <button class="btn-open block m-auto py-2 w-[250px] mt-4 text-center text-white bg-red-400 rounded-lg cursor-pointer music-player"
+                id="open"> Open Invitation
+        </button>
+    </div>
+</div>
+
+<!-- HOME -->
+
+<section id="home" style="background:url(img/bg/wedding.jpg) center center no-repeat; background-size: cover;"
+         class="w-full h-[100%] pt-44 sm:pt-28">
+    <div class="hero">
+        <img src="img/element/flower.png" alt="" class="m-auto w-[100px] sm:w-[150px]" style="padding: 25px;">
+        <h4 class="text-white text-center font-semibold text-[16px] sm:text-[25px]" style="color: #FFD700; font-size: 18px;">The Wedding Of</h4>
+        <h1 class="text-white align-center text-center font-regular text-[60px] sm:text-[80px] md:text-[100px]"
+            style="font-family: 'Passions Conflict', cursive; color: #FFD700;">Lao Haksrun & Somart Satya Votey</span></h1>
+        <hr class="m-auto border-[2px] border-[#FFD700] w-[16%]">
+        <p class="text-center text-white font-semibold pt-10" style="color: #FFD700; font-size: 18px;">Saturday, December 27, 2025</p>
+    </div>
+    <svg class="waves1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+         viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"/>
+        </defs>
+        <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(254,242,242,0.7"/>
+            <use xlink:href="#gentle-wave" x="48" y="3" class="fill-red-100 opacity-[90%]"/>
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(254,242,242,0.3)"/>
+            <use xlink:href="#gentle-wave" x="48" y="7" class="fill-red-50"/>
+        </g>
+    </svg>
+</section>
+<section>
+    <div class="count-down">
+        <img src="img/element/flower2.png" alt="" class="sm:w-[300px] w-[80%] pt-[50px] flower4 m-auto">
+        <h1 class="title4 text-[50px] text-center mt-[-5px]" style="font-family: 'Passions Conflict', cursive;">Countdown</h1>
+
+        <div class="circles grid grid-cols-2 sm:grid-cols-4 m-auto mt-[30px]">
+            <div class="circle1 m-auto mb-10 bg-[#faebd7] w-[108px] h-[108px] rounded-full border-[1px] border-orange-200">
+                <h1 class="text-center text-[30px] mt-7" id="day">00</h1>
+                <p class="bg-stone-400 text-center rounded-[5px] text-white">Days</p>
+            </div>
+            <div class="circle2 m-auto mb-10 bg-[#faebd7] w-[108px] h-[108px] rounded-full border-[1px] border-orange-200">
+                <h1 class="text-center text-[30px] mt-7" id="hour">00</h1>
+                <p class="bg-stone-400 text-center rounded-[5px] text-white">Hours</p>
+            </div>
+            <div class="circle3 m-auto mb-10 bg-[#faebd7] w-[108px] h-[108px] rounded-full border-[1px] border-orange-200">
+                <h1 class="text-center text-[30px] mt-7" id="minute">00</h1>
+                <p class="bg-stone-400 text-center rounded-[5px] text-white">Minutes</p>
+            </div>
+            <div class="circle4 m-auto mb-10 bg-[#faebd7] w-[108px] h-[108px] rounded-full border-[1px] border-orange-200">
+                <h1 class="text-center text-[30px] mt-7" id="second">00</h1>
+                <p class="bg-stone-400 text-center rounded-[5px] text-white">Seconds</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- COUPLE -->
+<section id="couple" class="couple z-10">
+    <div id="couple" class="h-[1800px] sm:h-[900px]">
+        <img src="img/element/flower2.png" alt="" class="sm:w-[300px] w-[80%] pt-[50px] flower m-auto">
+
+        <h1 class="title text-[50px] text-center mt-[-5px]" style="font-family: 'Passions Conflict', cursive;">Bridge &
+            Groom</h1>
+
+        <br>
+
+        <div class="opening w-[80%] m-auto">
+            <p class="salam italic text-gray-800 text-center text-[16px]">It is with great joy that we share this special news with you.</p>
+
+            <br>
+
+            <p class="mt-[10px] text-gray-800 text-center text-[15px]">After many memories together, we are beginning a new chapter of our lives as husband and wife.</p>
+            <p class="mt-[10px] text-gray-800 text-center text-[15px]">We would be truly honored to have you with us as we exchange our vows and celebrate our wedding.</p>
+        </div>
+
+        <!-- PROFILES 1 -->
+        <div class="profiles flex mt-[70px] invisible sm:visible">
+            <div class="profile1 m-auto mr-10">
+                <img src="img/profile/female.jpg" alt="" class="w-[170px] rounded-full border-[4px] border-red-200">
+                <h2 class="mt-[20px] mb-[20px] text-gray-600 text-[70px] text-center"
+                    style="font-family: 'Passions Conflict', cursive;">Votey</h2>
+                <p class="text-center font-bold text-lg text-stone-800">Somart Satya Votey</p>
+                <p class="text-center text-sm text-gray-800">Daughter of the Couple
+                    <br>
+                    <b>Ieng Somart & Liem Sreyroth</b>
+                </p>
+                <br>
+            </div>
+            <div class="profile2 m-auto hidden sm:block">
+                <img src="img/profile/male.jpg" alt="" class="w-[170px] rounded-full border-[4px] border-red-200">
+                <h2 class="mt-[20px] mb-[20px] text-gray-600 text-[70px] text-center"
+                    style="font-family: 'Passions Conflict', cursive;">Haksrun</h2>
+                <p class="text-center font-bold text-lg text-stone-800">Lao Haksrun</p>
+                <p class="text-center text-sm text-gray-800">Son of the Couple
+                    <br>
+                    <b>Lao Tich & Tang Sou Eng</b>
+                </p>
+                <br>
+            </div>
+        </div>
+
+        <div class="dan m-auto text-center mt-[-375px] font-bold text-[80px] text-stone-800 invisible sm:visible">&
+        </div>
+
+        <!-- PROFILES 2 -->
+        <div class="profiles2 grid mt-[-200px] visible sm:invisible">
+            <div class="profile-1 m-auto">
+                <img src="img/profile/female.jpg" alt=""
+                     class="w-[80%] m-auto rounded-full border-[4px] border-red-200">
+                <h2 class="mt-[20px] mb-[20px] text-gray-600 text-[70px] text-center"
+                    style="font-family: 'Passions Conflict', cursive;">Votey</h2>
+                <p class="text-center font-bold text-lg text-stone-800">Somart Satya Votey</p>
+                <p class="text-center text-sm text-gray-800">Daughter of the Couple
+                    <br>
+                    <b>Ieng Somart & Liem Sreyroth</b>
+                </p>
+                <br>
+            </div>
+
+            <div class="dan2 m-auto text-center mt-[50px] font-bold text-[80px] text-stone-800 visible sm:invisible">&
+            </div>
+
+            <div class="profile-2 m-auto mt-[50px]">
+                <img src="img/profile/male.jpg" alt="" class="w-[80%] m-auto rounded-full border-[4px] border-red-200">
+                <h2 class="mt-[20px] mb-[20px] text-gray-600 text-[70px] text-center"
+                    style="font-family: 'Passions Conflict', cursive;">Haksrun</h2>
+                <p class="text-center font-bold text-lg text-stone-800">Lao Haksrun</p>
+                <p class="text-center text-sm text-gray-800">Son of the Couple
+                    <br>
+                    <b>Lao Tich & Tang Sou Eng</b>
+                </p>
+                <br>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+    <div class="photo h-[100%]">
+        <img src="img/element/flower2.png" alt="" class="sm:w-[300px] w-[80%] pt-[50px] flower3 m-auto">
+        <h1 class="title3 text-[50px] text-center mt-[-5px]" style="font-family: 'Passions Conflict', cursive;">Our Gallery</h1>
+        <div class="gallery w-[80%] mt-[100px] m-auto mb-[50px] mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-[13px]">
+            <img src="img/gallery/img1.jpg" alt="" class="w-[100%] rounded-[5px] cursor-pointer h-[100%] block" id="img1">
+            <img src="img/gallery/img2.jpg" alt="" class="w-[100%] rounded-[5px] cursor-pointer h-[100%] block" id="img2">
+            <img src="img/gallery/img3.jpg" alt="" class="w-[100%] rounded-[5px] cursor-pointer h-[100%] block" id="img3">
+            <img src="img/gallery/img4.jpg" alt="" class="w-[100%] rounded-[5px] cursor-pointer h-[100%] block" id="img4">
+            <img src="img/gallery/img5.jpg" alt="" class="w-[100%] rounded-[5px] cursor-pointer h-[100%] block" id="img5">
+            <img src="img/gallery/img6.jpg" alt="" class="w-[100%] rounded-[5px] cursor-pointer h-[100%] block" id="img6">
+        </div>
+    </div>
+    <div class="h-[100%] pt-10"
+         style="background-image: url(img/bg/wedding.jpg); background-attachment: fixed; background-size: cover; background-repeat: no-repeat; background-position: center center;">
+
+        <div class="kosong3"></div>
+
+        <div class="m-auto w-[95%] align-center bg-white/[.7] rounded-[5px] p-2 z-10">
+            <p class="text-center text-gray-900 text-[15px] p-6">These are more than pictures — they are moments we never want to forget. We’re grateful that you are here to share them with us.</p>
+        </div>
+
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+             viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"/>
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(254,242,242,0.7"/>
+                <use xlink:href="#gentle-wave" x="48" y="3" class="fill-red-100 opacity-[90%]"/>
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(254,242,242,0.3)"/>
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fef2f2"/>
+            </g>
+        </svg>
+    </div>
+</section>
+
+<section>
+    <div class="map w-[100%]">
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3918.2149939619735!2d104.64126207504331!3d10.871245989283386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDUyJzE2LjUiTiAxMDTCsDM4JzM3LjgiRQ!5e0!3m2!1sen!2skh!4v1764405851183!5m2!1sen!2skh"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="mt-[120px] h-[300px] w-[100%]"></iframe>
+        </div>
+        <div class="btn-map m-auto">
+            <a href="https://www.google.com/maps/place/10%C2%B052'16.5%22N+104%C2%B038'37.8%22E/@10.871246,104.6412621,17z/data=!3m1!4b1!4m4!3m3!8m2!3d10.871246!4d104.643837?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                class="btn-map text-white m-auto py-2 w-[200px] mt-[40px] flex items-center justify-center rounded-lg bg-[#ff7070] hover:bg-slate-600">Open
+                Google Maps</a>
+        </div>
+    </div>
+</section>
+
+<section class="h-[100px]">
+    <img src="img/element/flower2.png" alt="" class="sm:w-[300px] w-[80%] pt-[50px] flower5 m-auto">
+    <h1 class="title5 text-[50px] text-center mt-[-5px]" style="font-family: 'Passions Conflict', cursive;">We can’t wait to celebrate with you!</h1>
+</section>
+
+<audio autoplay loop src="mp3/Beautiful In White.mp3"></audio>
+
+<script src="query-3.6.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
